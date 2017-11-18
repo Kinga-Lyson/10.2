@@ -1,0 +1,53 @@
+#carousel {
+	margin: 0 auto;
+	width: 500px;
+	height: 300px;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+}
+li {
+	list-style-type: none;
+	float: left;
+	width: 500px;
+	height: 300px;
+}
+img {
+	width: 500px;
+	height: 300px;
+}
+ul {
+	padding-left: 0;
+	width: 2500px;
+	margin-left: -500px;
+}
+
+
+#btn-left {
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+#btn-right {
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+.circus-box {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+.btn-circus {
+  border-radius: 50%;
+  height: 15px;
+  width: 10px;
+  margin: 0 2px;
+}
+
+
+h3 {
+	color: red;
+	margin-bottom: 100px;
+}
